@@ -1,0 +1,47 @@
+/* Base styles for the navbar */
+.navbar {
+  background-color: #1C3D5A;
+  /* Navbar Background */
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #29B6C6;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Roboto', serif;
+  font-weight: 700 bold;
+  color: #FFFFFF;
+  /* Links Color */
+  transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #29B6C6;
+  /* Ensure text remains white on hover */
+  background-color: #238E99;
+  /* Navbar Hover Background */
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.8);
+  /* Glowing effect */
+  border-radius: 4px;
+  /* Optional: rounded corners for the glow */
+}
+
+/* Optional: Adjusting navbar brand image for better visibility */
+
+/* Styling for the navbar toggler button */
+
+/* Responsive behavior adjustments if needed */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+  }
+}
